@@ -3,7 +3,7 @@
  */
 import Layer from './Layer.js';
 import WebGLPointsLayerRenderer from '../renderer/webgl/PointsLayer.js';
-import {parseLiteralStyle} from '../webgl/styleparser.js';
+import { parseLiteralStyle } from '../webgl/styleparser.js';
 
 /**
  * @template {import("../source/Vector.js").default} VectorSourceType
@@ -71,6 +71,7 @@ class WebGLPointsLayer extends Layer {
    * @param {Options<VectorSourceType>} options Options.
    */
   constructor(options) {
+    console.log('WebGLPointsLayerWebGLPointsLayerWebGLPointsLayerWebGLPointsLayerWebGLPointsLayer');
     const baseOptions = Object.assign({}, options);
 
     super(baseOptions);
